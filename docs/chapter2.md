@@ -484,7 +484,7 @@ if __name__ == "__main__":
         # 这个button用来清除画板
         Button:
             text: 'Clear'
-            on_release: root.draw_canvas_widget.clean_canvas()
+            on_release: app.draw_canvas_widget.clean_canvas()
 
 
 
